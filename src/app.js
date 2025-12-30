@@ -75,7 +75,7 @@ class ShoppingApp {
   // 字面量语法
   createUserData() {
     const user = new Object();
-    user["name"] = "张三";
+    user.name = "张三";
     user["age"] = 25;
     const hobbies = new Array("阅读", "运动", "编程");
     return { user, hobbies };

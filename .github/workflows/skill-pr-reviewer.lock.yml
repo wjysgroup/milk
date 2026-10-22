@@ -1,5 +1,5 @@
-# gh-aw-metadata: {"schema_version":"v4","frontmatter_hash":"794b88240196ed82dd125b25de5c831a370ef63cf9ab4e3d87281f63de9d7e94","body_hash":"d400b5c03d286600e0bdde375a8d8c81fb0468939031bc148d8f933b46202a40","compiler_version":"v0.92.0","strict":true,"agent_id":"cursor","agent_model":"cursor/auto"}
-# gh-aw-manifest: {"version":1,"secrets":["COPILOT_GITHUB_TOKEN","CURSOR_API_KEY","GH_AW_DEFAULT_OTLP_ENDPOINT","GH_AW_DEFAULT_OTLP_HEADERS","GH_AW_GITHUB_MCP_SERVER_TOKEN","GH_AW_GITHUB_TOKEN","GITHUB_TOKEN"],"actions":[{"repo":"actions/checkout","sha":"3d3c42e5aac5ba805825da76410c181273ba90b1","version":"v7.0.1"},{"repo":"actions/download-artifact","sha":"9000827ccba6bdab643e8b6fd33ac0654aef8333","version":"v8.0.2"},{"repo":"actions/github-script","sha":"3a2844b7e9c422d3c10d287c895573f7108da1b3","version":"v9.0.0"},{"repo":"actions/setup-node","sha":"949feb2413d6458794dcd2491c4babbbce0c15c1","version":"v7.1.0"},{"repo":"actions/upload-artifact","sha":"cf430e030ddbb5b0abf93d22962f4752f3646cd9","version":"v7.0.2"},{"repo":"github/gh-aw-actions/setup","sha":"458b269006dcf88e3b5496b6fbecabe4b9a0f954","version":"v0.92.0"}],"containers":[{"image":"ghcr.io/github/gh-aw-firewall/agent:0.28.57","digest":"sha256:a9861b2fad1d29c586bbbf98840a61056e30e2720d8d9ec2c0def9049566bd8a","pinned_image":"ghcr.io/github/gh-aw-firewall/agent:0.28.57@sha256:a9861b2fad1d29c586bbbf98840a61056e30e2720d8d9ec2c0def9049566bd8a"},{"image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.28.57","digest":"sha256:f2925ff32dc972a5d8b90a7785b6ca68052efd2575fe896556ac457e22e86dcc","pinned_image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.28.57@sha256:f2925ff32dc972a5d8b90a7785b6ca68052efd2575fe896556ac457e22e86dcc"},{"image":"ghcr.io/github/gh-aw-firewall/squid:0.28.57","digest":"sha256:be808c16b535ebabd070eebe086fe6bffd5bb86b2e5fe8e5cdad30068eb9c0ac","pinned_image":"ghcr.io/github/gh-aw-firewall/squid:0.28.57@sha256:be808c16b535ebabd070eebe086fe6bffd5bb86b2e5fe8e5cdad30068eb9c0ac"},{"image":"ghcr.io/github/gh-aw-mcpg:v0.4.31","digest":"sha256:dbec0f2ddef6adf83b7764019323096e3e5cc0f3886255f6320555b7fe2a7caf","pinned_image":"ghcr.io/github/gh-aw-mcpg:v0.4.31@sha256:dbec0f2ddef6adf83b7764019323096e3e5cc0f3886255f6320555b7fe2a7caf"},{"image":"ghcr.io/github/gh-aw-node","digest":"sha256:11c2c544876cdbaffefe0f7f1283b74838c209654b4934a78e23ed11f750490f","pinned_image":"ghcr.io/github/gh-aw-node@sha256:11c2c544876cdbaffefe0f7f1283b74838c209654b4934a78e23ed11f750490f"},{"image":"ghcr.io/github/github-mcp-server:v2.0.2","digest":"sha256:ffced0d76e77428532a2ced185516992d77fd146d69eec2f244e6237d1a97796","pinned_image":"ghcr.io/github/github-mcp-server:v2.0.2@sha256:ffced0d76e77428532a2ced185516992d77fd146d69eec2f244e6237d1a97796"}],"has_pull_request":true,"mcp_servers":[{"name":"github","tools":["get_commit","get_file_contents","get_latest_release","get_me","get_pull_request","get_pull_request_comments","get_pull_request_diff","get_pull_request_files","get_pull_request_review_comments","get_pull_request_reviews","get_pull_request_status","get_release_by_tag","get_tag","issue_read","list_branches","list_commits","list_issue_types","list_issues","list_pull_requests","list_releases","list_starred_repositories","list_tags","pull_request_read","search_code","search_issues","search_pull_requests","search_repositories"]},{"name":"safeoutputs","tools":["create_pull_request_review_comment","missing_data","missing_tool","noop","report_incomplete"]}],"threat_detection":{"mode":"enabled"}}
+# gh-aw-metadata: {"schema_version":"v4","frontmatter_hash":"7731dc5395ee4b6ba811934397aa4b4de89e751ea6b4a2b4f560689a0be3e762","body_hash":"d400b5c03d286600e0bdde375a8d8c81fb0468939031bc148d8f933b46202a40","compiler_version":"v0.92.0","strict":true,"agent_id":"cursor","agent_model":"cursor/auto"}
+# gh-aw-manifest: {"version":1,"secrets":["COPILOT_GITHUB_TOKEN","CURSOR_API_KEY","GH_AW_DEFAULT_OTLP_ENDPOINT","GH_AW_DEFAULT_OTLP_HEADERS","GH_AW_GITHUB_MCP_SERVER_TOKEN","GH_AW_GITHUB_TOKEN","GITHUB_TOKEN"],"actions":[{"repo":"actions/checkout","sha":"3d3c42e5aac5ba805825da76410c181273ba90b1","version":"v7.0.1"},{"repo":"actions/download-artifact","sha":"9000827ccba6bdab643e8b6fd33ac0654aef8333","version":"v8.0.2"},{"repo":"actions/github-script","sha":"3a2844b7e9c422d3c10d287c895573f7108da1b3","version":"v9.0.0"},{"repo":"actions/setup-node","sha":"949feb2413d6458794dcd2491c4babbbce0c15c1","version":"v7.1.0"},{"repo":"actions/upload-artifact","sha":"cf430e030ddbb5b0abf93d22962f4752f3646cd9","version":"v7.0.2"},{"repo":"github/gh-aw-actions/setup","sha":"v0.92.0","version":"v0.92.0"}],"containers":[{"image":"ghcr.io/github/gh-aw-firewall/agent:0.28.57","digest":"sha256:a9861b2fad1d29c586bbbf98840a61056e30e2720d8d9ec2c0def9049566bd8a","pinned_image":"ghcr.io/github/gh-aw-firewall/agent:0.28.57@sha256:a9861b2fad1d29c586bbbf98840a61056e30e2720d8d9ec2c0def9049566bd8a"},{"image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.28.57","digest":"sha256:f2925ff32dc972a5d8b90a7785b6ca68052efd2575fe896556ac457e22e86dcc","pinned_image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.28.57@sha256:f2925ff32dc972a5d8b90a7785b6ca68052efd2575fe896556ac457e22e86dcc"},{"image":"ghcr.io/github/gh-aw-firewall/squid:0.28.57","digest":"sha256:be808c16b535ebabd070eebe086fe6bffd5bb86b2e5fe8e5cdad30068eb9c0ac","pinned_image":"ghcr.io/github/gh-aw-firewall/squid:0.28.57@sha256:be808c16b535ebabd070eebe086fe6bffd5bb86b2e5fe8e5cdad30068eb9c0ac"},{"image":"ghcr.io/github/gh-aw-mcpg:v0.4.31","digest":"sha256:dbec0f2ddef6adf83b7764019323096e3e5cc0f3886255f6320555b7fe2a7caf","pinned_image":"ghcr.io/github/gh-aw-mcpg:v0.4.31@sha256:dbec0f2ddef6adf83b7764019323096e3e5cc0f3886255f6320555b7fe2a7caf"},{"image":"ghcr.io/github/gh-aw-node","digest":"sha256:11c2c544876cdbaffefe0f7f1283b74838c209654b4934a78e23ed11f750490f","pinned_image":"ghcr.io/github/gh-aw-node@sha256:11c2c544876cdbaffefe0f7f1283b74838c209654b4934a78e23ed11f750490f"},{"image":"ghcr.io/github/github-mcp-server:v2.0.2","digest":"sha256:ffced0d76e77428532a2ced185516992d77fd146d69eec2f244e6237d1a97796","pinned_image":"ghcr.io/github/github-mcp-server:v2.0.2@sha256:ffced0d76e77428532a2ced185516992d77fd146d69eec2f244e6237d1a97796"}],"has_pull_request":true,"mcp_servers":[{"name":"github","tools":["get_commit","get_file_contents","get_latest_release","get_me","get_pull_request","get_pull_request_comments","get_pull_request_diff","get_pull_request_files","get_pull_request_review_comments","get_pull_request_reviews","get_pull_request_status","get_release_by_tag","get_tag","issue_read","list_branches","list_commits","list_issue_types","list_issues","list_pull_requests","list_releases","list_starred_repositories","list_tags","pull_request_read","search_code","search_issues","search_pull_requests","search_repositories"]},{"name":"safeoutputs","tools":["create_pull_request_review_comment","missing_data","missing_tool","noop","report_incomplete"]}],"threat_detection":{"mode":"enabled"}}
 # This file was automatically generated by gh-aw (v0.92.0). DO NOT EDIT. To debug this workflow, load the skill at https://github.com/github/gh-aw/blob/main/debug.md
 #
 #    ___                   _   _
@@ -31,6 +31,8 @@
 #   Imports:
 #     - github/gh-aw/.github/workflows/shared/cursor.md@v0.92.0
 #
+# inlined-imports: true
+#
 # Secrets used:
 #   - COPILOT_GITHUB_TOKEN
 #   - CURSOR_API_KEY
@@ -46,7 +48,7 @@
 #   - actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
 #   - actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
 #   - actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
-#   - github/gh-aw-actions/setup@458b269006dcf88e3b5496b6fbecabe4b9a0f954 # v0.92.0
+#   - github/gh-aw-actions/setup@v0.92.0
 #
 # Container images used:
 #   - ghcr.io/github/gh-aw-firewall/agent:0.28.57@sha256:a9861b2fad1d29c586bbbf98840a61056e30e2720d8d9ec2c0def9049566bd8a
@@ -121,7 +123,7 @@ jobs:
     steps:
       - name: Setup Scripts
         id: setup
-        uses: github/gh-aw-actions/setup@458b269006dcf88e3b5496b6fbecabe4b9a0f954 # v0.92.0
+        uses: github/gh-aw-actions/setup@v0.92.0
         with:
           destination: ${{ runner.temp }}/gh-aw/actions
           job-name: ${{ github.job }}
@@ -310,8 +312,8 @@ jobs:
           GH_AW_PROMPT_CONTENT_0002: "</safe-output-tools>\n"
           GH_AW_PROMPT_CONTENT_0003: "<github-context>\nThe following GitHub context information is available for this workflow:\n{{#if github.actor}}\n- **actor**: __GH_AW_GITHUB_ACTOR__\n{{/if}}\n{{#if github.repository}}\n- **repository**: __GH_AW_GITHUB_REPOSITORY__\n{{/if}}\n{{#if github.workspace}}\n- **workspace**: __GH_AW_GITHUB_WORKSPACE__\n{{/if}}\n{{#if github.event.issue.number || (github.aw.context.item_type == 'issue' && github.aw.context.item_number)}}\n- **issue-number**: #__GH_AW_EXPR_7C248226__\n{{/if}}\n{{#if github.event.discussion.number || (github.aw.context.item_type == 'discussion' && github.aw.context.item_number)}}\n- **discussion-number**: #__GH_AW_EXPR_C19C384F__\n{{/if}}\n{{#if github.event.pull_request.number || (github.aw.context.item_type == 'pull_request' && github.aw.context.item_number)}}\n- **pull-request-number**: #__GH_AW_EXPR_76DF9333__\n{{/if}}\n{{#if github.event.comment.id || github.aw.context.comment_id}}\n- **comment-id**: __GH_AW_EXPR_77C1A4D2__\n{{/if}}\n{{#if github.run_id}}\n- **workflow-run-id**: __GH_AW_GITHUB_RUN_ID__\n{{/if}}\n</github-context>\n\n"
           GH_AW_PROMPT_CONTENT_0004: "</system>\n"
-          GH_AW_PROMPT_CONTENT_0005: "{{#runtime-import .github/aw/imports/github/gh-aw/a68f5a9436d2a014dbd1d1d48ff86c4bdec7424a/.github_workflows_shared_cursor.md}}\n"
-          GH_AW_PROMPT_CONTENT_0006: "{{#runtime-import .github/workflows/skill-pr-reviewer.md}}\n"
+          GH_AW_PROMPT_CONTENT_0005: "\n"
+          GH_AW_PROMPT_CONTENT_0006: "# Skill PR Reviewer\n\nCode-review every pull request in this project. A successful run delivers line-level review comments on the changed diff, and every actionable comment names the installed expert skill selected for that change type.\n\nThis run starts because pull request #__GH_AW_GITHUB_EVENT_PULL_REQUEST_NUMBER__ in __GH_AW_GITHUB_REPOSITORY__ was marked ready for review. Review that pull request only.\n\n## Repository\n\nThis is `shopping-demo`, a small browser shopping UI (product list, cart count, DOM updates). Judge changes against the code that is actually here:\n\n- Languages are vanilla JavaScript ES modules, HTML, and CSS in `src/`. There is no TypeScript, Vue, Nuxt, or Tailwind.\n- npm is the package manager. The scripts that exist are `npm start` (`live-server`) and `npm run lint` (`eslint src/**/*.js`). Do not invent `dev`, `build`, `typecheck`, or `lint:fix`.\n- `.eslintrc.json` enforces 2-space indent, single quotes, no semicolons, `eslint:recommended`, `sourceType: module`, and browser plus ES2021.\n- Pull requests to `master` already run ESLint (SARIF upload) and SonarQube. Do not restate those automated style findings unless a selected skill shows a correctness or security consequence on a changed line.\n- There is no test runner, issue template, pull request template, or required label. UI copy is Chinese.\n- Dependabot updates npm, Docker, and GitHub Actions. Treat lockfiles and generated workflow output as out of scope unless the diff changes runtime behavior.\n\n## Steps\n\n1. Read the pull request title, body, diff, and existing review comments with `gh`. Do not approve the pull request. The default token cannot approve, and approval is not an allowed output.\n2. Discover installed skills with `find` at max depth 6 under `skills/` and `.github/skills/` for `SKILL.md`. Read only the skills relevant to this diff. Do not install, download, or fetch any skill.\n3. Classify the change type from the diff (for example cart behavior, product rendering, upload handling, styles, dependencies, or workflow config). Select the installed skills that match that change type, and name those skills before applying them.\n4. Review changed lines only. Use unchanged code only as evidence for a finding on a changed line. Skip lockfiles, generated files, and files the diff does not touch.\n5. Compare each candidate finding with existing review comments on the same line. Drop duplicates.\n6. For each actionable finding, emit one `create-pull-request-review-comment` on the changed line. The comment must name the skill that informed it, state the concrete problem, and give a specific fix that fits this repository. Cap the review at the eight highest-impact findings. Prefer correctness and security (cart totals, price handling, unsanitized `innerHTML`, upload validation) over style.\n7. End the response with a short summary that states the change type, the selected skill names, that comments are limited to changed diff lines, and that duplicate feedback was not posted. If you call `noop`, put that same summary in the reason.\n\n## No-op\n\nCall `noop` with a short reason, and do not post comments, when any of these is true:\n\n- No `SKILL.md` is installed under `skills/` or `.github/skills/`.\n- No installed skill matches the change type.\n- The diff has no actionable finding that a selected skill supports.\n- The only possible comments would repeat existing feedback or would target unchanged lines.\n\n## Safe outputs\n\n- Use `create-pull-request-review-comment` for each finding on a changed diff line.\n- Use `noop` when no skill-backed finding should be posted.\n\n"
         with:
           script: |
             const { setupGlobals } = require(process.env.GH_AW_ACTIONS_DIR + '/setup_globals.cjs');
@@ -477,7 +479,7 @@ jobs:
     steps:
       - name: Setup Scripts
         id: setup
-        uses: github/gh-aw-actions/setup@458b269006dcf88e3b5496b6fbecabe4b9a0f954 # v0.92.0
+        uses: github/gh-aw-actions/setup@v0.92.0
         with:
           destination: ${{ runner.temp }}/gh-aw/actions
           job-name: ${{ github.job }}
@@ -1385,7 +1387,7 @@ jobs:
     steps:
       - name: Setup Scripts
         id: setup
-        uses: github/gh-aw-actions/setup@458b269006dcf88e3b5496b6fbecabe4b9a0f954 # v0.92.0
+        uses: github/gh-aw-actions/setup@v0.92.0
         with:
           destination: ${{ runner.temp }}/gh-aw/actions
           job-name: ${{ github.job }}
@@ -1708,7 +1710,7 @@ jobs:
     steps:
       - name: Setup Scripts
         id: setup
-        uses: github/gh-aw-actions/setup@458b269006dcf88e3b5496b6fbecabe4b9a0f954 # v0.92.0
+        uses: github/gh-aw-actions/setup@v0.92.0
         with:
           destination: ${{ runner.temp }}/gh-aw/actions
           job-name: ${{ github.job }}
@@ -1992,7 +1994,7 @@ jobs:
     steps:
       - name: Setup Scripts
         id: setup
-        uses: github/gh-aw-actions/setup@458b269006dcf88e3b5496b6fbecabe4b9a0f954 # v0.92.0
+        uses: github/gh-aw-actions/setup@v0.92.0
         with:
           destination: ${{ runner.temp }}/gh-aw/actions
           job-name: ${{ github.job }}
@@ -2372,7 +2374,7 @@ jobs:
     steps:
       - name: Setup Scripts
         id: setup
-        uses: github/gh-aw-actions/setup@458b269006dcf88e3b5496b6fbecabe4b9a0f954 # v0.92.0
+        uses: github/gh-aw-actions/setup@v0.92.0
         with:
           destination: ${{ runner.temp }}/gh-aw/actions
           job-name: ${{ github.job }}
@@ -2410,7 +2412,7 @@ jobs:
     steps:
       - name: Setup Scripts
         id: setup
-        uses: github/gh-aw-actions/setup@458b269006dcf88e3b5496b6fbecabe4b9a0f954 # v0.92.0
+        uses: github/gh-aw-actions/setup@v0.92.0
         with:
           destination: ${{ runner.temp }}/gh-aw/actions
           job-name: ${{ github.job }}
@@ -2504,7 +2506,7 @@ jobs:
     steps:
       - name: Setup Scripts
         id: setup
-        uses: github/gh-aw-actions/setup@458b269006dcf88e3b5496b6fbecabe4b9a0f954 # v0.92.0
+        uses: github/gh-aw-actions/setup@v0.92.0
         with:
           destination: ${{ runner.temp }}/gh-aw/actions
           job-name: ${{ github.job }}

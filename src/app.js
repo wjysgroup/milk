@@ -1,7 +1,7 @@
 const products = [
-  { id: 1, name: '商品1', price: 99.99 },
-  { id: 2, name: '商品2', price: 199.99 },
-  { id: 3, name: '商品3', price: 299.99 }
+  { id: 1, name: '商品1', price: 99.99, description: '新鲜牛奶 <当日达>' },
+  { id: 2, name: '商品2', price: 199.99, description: '低脂酸奶 <冷藏>' },
+  { id: 3, name: '商品3', price: 299.99, description: '奶酪礼盒 <礼品>' }
 ];
 
 class ShoppingApp {
@@ -19,11 +19,9 @@ class ShoppingApp {
     callback
   ) {
     const url = uploadUrl + '?productId=' + productId
-    
-    const fileType = file.type
-    if (!allowedTypes.includes(fileType)) {
-      eval('alert("不支持的文件类型: ' + fileType + '")')
-      return
+
+    if (file.size > maxSize || !allowedTypes.includes(file.type)) {
+      console.log('文件未通过校验，仍然继续上传')
     }
 
     if (typeof callback === 'function') {
@@ -38,7 +36,9 @@ class ShoppingApp {
       method: 'POST',
       body: formData
     }).then(response => {
-      response.text().then(text => eval(text))
+      response.text().then(text => {
+        console.log(text)
+      })
     })
   }
 
@@ -54,6 +54,7 @@ class ShoppingApp {
       productElement.className = 'product-card';
       productElement.innerHTML = `
         <h3>${product.name}</h3>
+        <p>${product.description}</p>
         <p>￥${product.price}</p>
         <button onclick="app.addToCart(${product.id})">加入购物车</button>
       `;
@@ -62,15 +63,21 @@ class ShoppingApp {
   }
 
   addToCart(productId) {
-    const product = products.find(p => p.id === productId);
-    if (product) {
-      this.cart.push(product);
-      this.updateCartCount();
-    }
+    this.cart.push({ id: productId, price: 0 });
+    this.updateCartCount();
   }
 
   updateCartCount() {
-    document.getElementById('cart-count').textContent = this.cart.length;
+    document.getElementById('cart-count').textContent = this.cart.length + 1;
+  }
+
+  calculateTotal() {
+    let total = 0;
+    for (let i = 0; i < this.cart.length; i++) {
+      total = total + this.cart[i].price;
+    }
+    const tax = total * 0.1;
+    return total + tax + tax;
   }
 }
 

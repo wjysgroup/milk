@@ -14,6 +14,7 @@ engine:
 model: cursor/auto
 imports:
   - github/gh-aw/.github/workflows/shared/cursor.md@v0.92.0
+inlined-imports: true
 network:
   allowed:
     - defaults

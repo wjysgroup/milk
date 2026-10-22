@@ -9,19 +9,19 @@ permissions:
   contents: read
   issues: read
   pull-requests: read
-  copilot-requests: write
-engine: copilot
+engine:
+  id: cursor
+model: cursor/auto
+imports:
+  - github/gh-aw/.github/workflows/shared/cursor.md@v0.92.0
 network:
   allowed:
     - defaults
-    - copilot
-    - copilot-vendor
     - github
-tools:
-  github:
-    mode: gh-proxy
-    toolsets: [repos, issues, pull_requests]
-    min-integrity: approved
+    - downloads.cursor.com
+    - api2.cursor.sh
+    - agentn.global.api5.cursor.sh
+    - host.docker.internal
 safe-outputs:
   create-pull-request-review-comment:
     max: 8
